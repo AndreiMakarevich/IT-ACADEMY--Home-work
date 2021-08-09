@@ -1,0 +1,51 @@
+body{
+    background: url(./ball.jpg)  repeat-y right;
+    background-size: 40px;
+    margin: 0;
+}
+
+table{
+    border: 3px;
+    
+}
+tr{
+    border: 2px solid;
+    
+}
+td{
+    border: 3px ;
+}
+.thead1{
+    height: 10vh;
+    background-color: blue;
+    color: rgb(145, 145, 201);
+    font-size: 30px;
+    text-align: center;
+}
+ 
+
+.menu{
+    background-color: yellow;
+    text-align: left;
+    height: 600px;
+    vertical-align: top;
+}
+
+.tbody2{
+    padding: 20px;
+    vertical-align: top;
+ 
+}
+
+h1{
+    text-align: center;
+}
+
+.tfoot1{
+    height: 10vh;
+    background-color: blue;
+    color: rgb(145, 145, 201);
+    font-size: 30px;
+    text-align: center;
+}
+
