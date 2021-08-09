@@ -1,0 +1,25 @@
+img{
+    height: 100px;
+    width: 100px;
+}
+.cont{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+.star{
+    height: 65px;
+    width: 100px;
+    background-image: url(./star.jpg);
+    background-size: 100px;
+
+}
+.star:hover{
+    background-image: url(./star1.png);
+    background-size: 100px; 
+}
+
+.star:hover~.star{
+    background-image: url(./star1.png);
+    background-size: 100px; 
+}
