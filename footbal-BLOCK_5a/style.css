@@ -1,0 +1,66 @@
+
+body{
+    background: url(./ball.jpg)  repeat-y right;
+    background-size: 40px;
+    margin: 0;
+}
+.header1{
+    background-color: blue;
+    color: rgb(164, 164, 235);
+    font-size: 30px;
+    text-align: center;
+     height: 120px;
+}
+   
+ .header{
+    background-color: blue;
+    color: rgb(164, 164, 235);
+    font-size: 30px;
+    text-align: center;
+    line-height: 120px;
+ 
+} 
+
+.sidebar{
+    background-color: yellow;
+    margin: 0;
+    width: 150px;
+    height: 100vh;
+    float: left;
+    z-index: 1;
+}
+
+ul{
+    margin-left: -50px;
+}
+
+h1{
+    margin-top: 20px;
+    text-align: center; 
+}
+
+img{
+    width: 170px; 
+    height: 150px;
+    float: left;
+    margin-right: 20px;
+}
+
+   .main1{
+        margin: 20px 20px 20px 20%;
+      
+   }
+
+.footer1 p{
+    background-color: blue;
+    color: rgb(164, 164, 235);
+    font-size: 30px;
+    text-align: center;
+    height: 20vh;
+    clear: both;
+    line-height: 20vh;
+}
+
+p{
+    margin: 0;
+}
