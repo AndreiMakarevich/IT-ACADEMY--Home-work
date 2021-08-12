@@ -1,0 +1,47 @@
+.first a{
+    color: green;
+    padding:0 3px;
+    
+}
+
+.first a :hover{
+    color: red;
+}
+
+.first :not(:last-child) {
+    border-right: red solid;
+}
+
+
+.table1 table tr td a{
+    color: green;
+    padding:0 3px;
+}
+.table1 table tr td :hover{
+    color: red;
+}
+
+.table1 table tr  :not(:last-child) {
+    border-right: red solid;
+}
+
+
+.ul1 ul li{
+    display: inline;
+}
+
+.ul1 ul li a{
+    color: green;
+    padding:0 3px;
+}
+
+.ul1 ul li a :hover{
+    color: red;
+}
+
+.ul1 ul :not(:last-child) {
+    border-right: red solid;
+}
+ul{
+    padding: 0;
+}
